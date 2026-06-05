@@ -1,0 +1,19 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express server that manages a small in-memory list of user profiles. The API supports retrieving existing profiles, adding new profiles, and deleting profiles by ID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
